@@ -154,7 +154,7 @@ const Section1 = () => {
       
     },
     {
-      label: "Personality Development Program",
+      label: "Management Services",
       value: "Tab",
       desc: (
         <>

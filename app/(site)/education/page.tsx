@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Atoms Group",
+  title: "Atoms Education",
   description: "This is Error page",
   // other metadata
 };

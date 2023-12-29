@@ -56,7 +56,7 @@ const About = () => {
         whileInView="visible"
         transition={{ duration: 1, delay: 0.5 }}
         viewport={{ once: true }}
-        className="animate_top rounded-lg bg-white px-4 lg:py-2  pb-9 shadow-solid-8 dark:bg-blacksection"
+        className="animate_top rounded-lg bg-white px-4 lg:py-2  pb-9 "
       >    
       <div className="px-4 text-left  full-text " style={{ marginTop: "2rem" }}>
                           
@@ -87,7 +87,7 @@ const About = () => {
   </div>
   <div className="p-6 relative z-10">
     <small className="text-blue-400 text-xs">atoms education</small>
-    <h2 className="mb-3 text-2xl font-semibold text-gray-800 dark:text-white">Personality Development Program</h2>
+    <h2 className="mb-3  text-xl font-semibold text-gray-800 dark:text-white">Personality Development Program</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
     We provide Personality Development Program, fostering learning spaces. Our offerings include institute management, student and teacher training...
     </p>
@@ -114,7 +114,7 @@ const About = () => {
   </div>
   <div className="p-6 relative z-10">
     <small className="text-blue-400 text-xs">atoms education</small>
-    <h2 className="mb-3 text-2xl font-semibold text-gray-800 dark:text-white">The Acumen Club</h2>
+    <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">The Acumen Club</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
     English is vital for global communication, aids travel and multinational jobs. Acumen Club fosters English skills through innovative curriculum, building...
     </p>
@@ -140,11 +140,12 @@ const About = () => {
   </div>
   <div className="p-6 relative z-10">
     <small className="text-blue-400 text-xs">atoms education</small>
-    <h2 className="mb-3 text-2xl font-semibold text-gray-800 dark:text-white">Atoms Tutions</h2>
+    <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">Atoms Tutions</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
     Atoms Tuition offers practical, non-traditional learning for students, partnering with educators to foster a positive community for academic growth...
     </p>
-    <a href="/section3"
+    <a
+      href="/section3"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
     >
       <button className="bg-blue-500 text-white rounded-md px-2 py-1">Know More</button>
@@ -164,7 +165,7 @@ const About = () => {
   </div>
   <div className="p-6 relative z-10">
     <small className="text-blue-400 text-xs">atoms education</small>
-    <h2 className="mb-3 text-2xl font-semibold text-gray-800 dark:text-white">Atoms Summer Camps</h2>
+    <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">Atoms Summer Camps</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
     Acumen Club's mission capitalizes on summer to boost student success via school partnerships. It enhances English, offers diverse sessions like...
     </p>
@@ -179,7 +180,7 @@ const About = () => {
 
     
    {/* 5 Card */}
-   <div className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out margin1" >
+   <div className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out margin1 " >
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
@@ -191,7 +192,7 @@ const About = () => {
   </div>
   <div className="p-6 relative z-10">
     <small className="text-blue-400 text-xs">atoms education</small>
-    <h2 className="mb-3 text-2xl font-semibold text-gray-800 dark:text-white">Placement Assistance Packages</h2>
+    <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">Placement Assistance Packages</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
     In the fierce job market, Atoms Education offers specialized training to conquer MNC job hurdles. Our modules enhance resumes, LinkedIn profiles...
     </p>
@@ -204,23 +205,28 @@ const About = () => {
   </div>
 </div>
 {/*card-0 */}
-<div className="max-w-sm mx-8 my-4 overflow-hidden ">
-  <div className="relative w-full h-48 overflow-hidden">
-    
+<div className="max-w-sm mx-8 my-4  margin2 ">
+  <div className="relative w-full h-48 ">
+    <img
+      className="object-cover object-center w-full h-full"
+      src="./images/educationcards/14.png"
+      alt="card image"
+      style={{ visibility: 'hidden' }}
+    />
     {/* Unique Shape Overlay */}
     <div className="absolute inset-0 bg-gradient-to-r from-white to-white opacity-30"></div>
   </div>
   <div className="p-6 relative z-10">
     <small className="text-white text-xs">atoms education</small>
-    <h2 className="mb-3 text-2xl text-white dark:text-white">Atoms Tutions</h2>
+    <h2 className="mb-3 text-xl font-semibold text-white dark:text-white">Atoms Tutions</h2>
     <p className="text-sm tracking-tight font-light text-white leading-6">
     Atoms Tuition offers practical, non-traditional learning for students, partnering with educators to foster a positive community for academic growth...
     </p>
     <a
-      href=""
-      className="inline-flex items-center gap-2.5 text-white  dark:text-white  mt-5"
+      href="/section3"
+      className="inline-flex items-center gap-2.5 text-white  dark:text-white dark:hover:text-primary mt-5"
     >
-      <button className="bg-white text-white rounded-md px-2 py-1">Know More</button>
+      
     </a>
   </div>
 </div>
@@ -242,9 +248,7 @@ const About = () => {
 
 
 
-
-
-<section className="border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black">
+<section className="border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black spaceu">
        
           
            

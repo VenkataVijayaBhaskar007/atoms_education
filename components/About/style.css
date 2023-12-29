@@ -465,7 +465,14 @@ html, body {width: auto!important; overflow-x: hidden!important}
             margin-bottom: -400px;
         }
   }
- 
+  @media (min-width: 1535px) {
+    /* Tablets and larger screens */
+    .spaceu {
+        
+        
+            margin-top: 9rem;
+        }
+  }
   
 
 

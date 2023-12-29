@@ -16,7 +16,7 @@ import Testimonial from "@/components/Testimonial";
 
 
 export const metadata: Metadata = {
-  title: " Atoms Digital Solutions",
+  title: " Atoms Education",
   description: "This is Home page",
   // other metadata
 };

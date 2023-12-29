@@ -2,7 +2,7 @@ import SidebarLink from "@/components/Docs/SidebarLink";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Atoms core page",
+  title: "Atoms Education",
   description: "This is core team page for atoms",
   // other metadata
 };

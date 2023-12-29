@@ -11,72 +11,30 @@ const menuData: Menu[] = [
     id: 2,
     title: "About",
     newTab: false,
-    path: "/#About",
+    path: "#About",
   },
   {
     id: 2.1,
-    title: "Project",
+    title: "Projects",
     newTab: false,
-    path: "/#Companies",
+    path: "#Projects",
   },
 
   {
     id: 2.3,
     title: "Team",
     newTab: false,
-    path: "/error",
+    path: "/team",
   },
 
   {
     id: 4,
     title: "Testimonials",
     newTab: false,
-    path: "/#Testimonials",
+    path: "#Testimonials",
   },
 
-  {
-    id: 3,
-    title: "Page links",
-    newTab: false,
-    submenu: [
-      {
-        id: 31,
-        title: "Atoms digital solutins",
-        newTab: false,
-        path: "/atom",
-      },
-      {
-        id: 34,
-        title: "Atoms Education",
-        newTab: false,
-        path: "/blog",
-      },
-      {
-        id: 35,
-        title: "Atoms hospitality",
-        newTab: false,
-        path: "/atoms",
-      },
-      {
-        id: 35,
-        title: "Way CT",
-        newTab: false,
-        path: "/atoms",
-      },
-      {
-        id: 35.1,
-        title: "Support",
-        newTab: false,
-        path: "/support",
-      },
-      {
-        id: 36,
-        title: "",
-        newTab: false,
-        path: "/error",
-      },
-    ],
-  },
+  
 ];
 
 export default menuData;

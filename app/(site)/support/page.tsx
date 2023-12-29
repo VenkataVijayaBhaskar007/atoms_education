@@ -3,7 +3,7 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: " Atoms Digital Solutions",
+  title: " Atoms Education",
   description: "This is Contact Page",
   // other metadata
 };

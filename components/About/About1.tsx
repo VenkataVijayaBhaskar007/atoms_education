@@ -3,7 +3,7 @@ import React from "react";
 const About1 = () => {
   return (
     <>
-      <section className="overflow-hidden  pb-20 lg:pt-[10px] lg:pb-[90px] bg-white dark:bg-dark px-10">
+      <section id="About" className="overflow-hidden  pb-20 lg:pt-[10px] lg:pb-[90px] bg-white dark:bg-dark px-10">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
           
@@ -16,7 +16,7 @@ const About1 = () => {
       <div>       
               
     <p>
-    At Atoms Group, our mission is to inspire the world to learn. We have established ourselves as creators of learning environments that empower individuals to enhance their learning capabilities and contribute to making the world a better place to live. Our expertise lies in providing courses and training to students, teachers, parents, and educational institution management, utilizing our innovative models to create effective learning spaces.
+    At Atoms Education, our mission is to inspire the world to learn. We have established ourselves as creators of learning environments that empower individuals to enhance their learning capabilities and contribute to making the world a better place to live. Our expertise lies in providing courses and training to students, teachers, parents, and educational institution management, utilizing our innovative models to create effective learning spaces.
     </p>
    
     <div className="mt-5">
@@ -28,10 +28,9 @@ const About1 = () => {
     <div className=" flex items-center gap-5">
             
                 <div className="w-3/4 mt-2">
-                  <h3 className="mb-0.5 text-metatitle2 text-black hover:text-blue-600 dark:text-white">
-                    Achieving greater heights is not so farther
-                  </h3>
-                  <p>ourselves as creators of learning environments that empower individuals to enhance their learning capabilities and contribute to making the world a better place to live. </p>
+                
+                  <p>To inspire the world to learn
+ </p>
                 </div>
               </div>
              

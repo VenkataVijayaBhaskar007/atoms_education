@@ -33,134 +33,11 @@ const About = () => {
   
   return (
     <>
-      {/* tart ===== --> */}
-      {/* <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
-        <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 0.5, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
-            >
-              <Image
-                src="/images/about/about-light-01.png"
-                alt="About"
-                className="dark:hidden"
-                fill
-              />
-              <Image
-                src="/images/about/about-dark-01.png"
-                alt="About"
-                className="hidden dark:block"
-                fill
-              />
-            </motion.div>
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: 20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 0.5, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_right md:w-1/2"
-            >
-              <span className="font-medium uppercase text-black dark:text-white">
-                <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
-                  hie...
-                </span>{" "}
-               About us
-              </span>
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                This is about
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                 Atoms  Educationss
-                </span>
-              </h2>
-              <p className="mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
-              </p>
-              <div className="gap-3">
-              <h2 className="relative mb-6 text-2xl font-bold text-black dark:text-white xl:text-hero">
-              our
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-2 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                    vision
-                </span>
-              </h2>
-              </div>
-              <div className="mt-7.5 flex items-center gap-5">
-                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
-                    01
-                  </p>
-                </div>
-                <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Atoms  Educations...
-                  </h3>
-                  <p>Atoms  Educations....</p>
-                </div>
-              </div>
-              <div className="mt-7.5 flex items-center gap-5">
-                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
-                    02
-                  </p>
-                </div>
-                <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Atoms  Educations
-                  </h3>
-                  <p>Atoms  Educations....</p>
-                </div>
-              </div>
-              <div className="mt-7.5 flex items-center gap-5">
-                <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
-                  <p className="text-metatitle2 font-semibold text-black dark:text-white">
-                    03
-                  </p>
-                </div>
-                <div className="w-3/4">
-                  <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Atoms  Educations...
-                  </h3>
-                  <p>Atoms  Educations....</p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section> */}
-      {/* nd ===== --> */}
-
-      {/* wo Start ===== --> */}
-
+     
 
       <About1/>
      
-<section className="container  my-10 mt-2" >
+<section id="Projects" className="container  my-10 mt-2 " >
   
     {/* First Card */}
     <motion.div
@@ -190,12 +67,14 @@ const About = () => {
                        
                         
               <p>
-              We are proudly announcing that Atoms is growing bigger day by day at rapid growth. Here are the major companies that we contribute through...We are proudly announcing that Atoms is growing bigger day by day at rapid growth. Here are the major companies that we contribute through...We are proudly announcing that Atoms is growing bigger day by day at rapid growth. Here are the major companies that we contribute through...
+            Our comprehensive services encompass the management of educational institutes, delivering courses and training to various stakeholders, including students, teachers, management, and parents. Additionally, we specialize in designing and implementing educational activities and services that enrich learning experiences across both online and offline platforms. Through our dedication and commitment, we strive to facilitate lifelong learning and foster a brighter future for all.
+
               </p>
                              
               </div>              
                           </div>
         <div className="flex flex-wrap justify-center items-center project-text" >
+          {/*card-1 */}
         <div className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out" >
   <div className="relative w-full h-48 overflow-hidden">
     <img
@@ -265,47 +144,15 @@ const About = () => {
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
     Atoms Tuition offers practical, non-traditional learning for students, partnering with educators to foster a positive community for academic growth...
     </p>
-    <a
-      href="/section3"
+    <a href="/section3"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
     >
       <button className="bg-blue-500 text-white rounded-md px-2 py-1">Know More</button>
     </a>
   </div>
 </div>
-
-  </div>
-  </motion.div>
-</section>
-
-
-
-
-
-
-<section className="container mb-20 my-100 mx10 bg-white" >
-  
-    {/* First Card */}
-    <motion.div
-        variants={{
-          hidden: {
-            opacity: 0,
-            y: -20,
-          },
-
-          visible: {
-            opacity: 1,
-            y: 0,
-          },
-        }}
-        initial="hidden"
-        whileInView="visible"
-        transition={{ duration: 1, delay: 0.5 }}
-        viewport={{ once: true }}
-        className="animate_top rounded-lg"
-      >
-        <div className="flex flex-wrap card-margin items-center">
-        <div className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out" >
+{/*card-4 */}
+<div className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out" >
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
@@ -331,7 +178,7 @@ const About = () => {
 </div>
 
     
-   {/* 2 Card */}
+   {/* 5 Card */}
    <div className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out margin1" >
   <div className="relative w-full h-48 overflow-hidden">
     <img
@@ -356,13 +203,37 @@ const About = () => {
     </a>
   </div>
 </div>
-
-     {/* 3 Card */}
-   
+{/*card-0 */}
+<div className="max-w-sm mx-8 my-4 overflow-hidden ">
+  <div className="relative w-full h-48 overflow-hidden">
+    
+    {/* Unique Shape Overlay */}
+    <div className="absolute inset-0 bg-gradient-to-r from-white to-white opacity-30"></div>
+  </div>
+  <div className="p-6 relative z-10">
+    <small className="text-white text-xs">atoms education</small>
+    <h2 className="mb-3 text-2xl text-white dark:text-white">Atoms Tutions</h2>
+    <p className="text-sm tracking-tight font-light text-white leading-6">
+    Atoms Tuition offers practical, non-traditional learning for students, partnering with educators to foster a positive community for academic growth...
+    </p>
+    <a
+      href=""
+      className="inline-flex items-center gap-2.5 text-white  dark:text-white  mt-5"
+    >
+      <button className="bg-white text-white rounded-md px-2 py-1">Know More</button>
+    </a>
+  </div>
+</div>
 
   </div>
   </motion.div>
 </section>
+
+
+
+
+
+
 
 
 

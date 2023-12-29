@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import "./style.css";
 export const metadata: Metadata = {
-  title: "Atoms Group",
+  title: "Atoms Education",
   description: "This is Error page",
   // other metadata
 };

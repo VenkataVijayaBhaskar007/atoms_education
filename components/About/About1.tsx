@@ -58,7 +58,7 @@ const About1 = () => {
               </div>
     <div className=" flex items-center gap-5">
             
-                <div className="w-3/4 mt-2">
+                <div className=" mt-2">
                 
                   <p>Atoms Education is dedicated to creating dynamic learning environments that empower students, teachers, and educational institutions. Through innovative models, we offer comprehensive services, fostering lifelong learning and contributing to a better world.
              

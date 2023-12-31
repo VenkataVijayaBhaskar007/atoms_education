@@ -7,13 +7,13 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import "./style.css"
 const images = [
-  "/herosection/1.png",
+  "/herosection/1.webp",
  
-  "/herosection/3.png",
+  "/herosection/3.webp",
 
-  "/herosection/5.png",
+  "/herosection/5.webp",
 
-  "/herosection/7.png",
+  "/herosection/7.webp",
 
 
 ];

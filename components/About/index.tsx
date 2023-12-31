@@ -41,21 +41,19 @@ const About = () => {
   
     {/* First Card */}
     <motion.div
-        variants={{
-          hidden: {
-            opacity: 0,
-            y: -20,
-          },
-
-          visible: {
-            opacity: 1,
-            y: 0,
-          },
-        }}
-        initial="hidden"
-        whileInView="visible"
-        transition={{ duration: 1, delay: 0.5 }}
-        viewport={{ once: true }}
+    variants={{
+      hidden: {
+        opacity: 0,
+        y: -40,
+      },
+      visible: {
+        opacity: 1,
+        y: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.1 }}
         className="animate_top rounded-lg bg-white px-4 lg:py-2  pb-9 "
       >    
       <div className="px-4 text-left  full-text " style={{ marginTop: "2rem" }}>
@@ -248,12 +246,34 @@ const About = () => {
 
 
 
-<section className="border border-x-0 border-y-stroke bg-alabaster py-11 dark:border-y-strokedark dark:bg-black spaceu">
+ 
+<section className="border border-x-0 border-y-stroke bg-alabaster py-1 dark:border-y-strokedark dark:bg-black" style={{marginTop:"-4rem"}}>
        
-          
-           
-
-
+   
+       <div className="flex items-center justify-center">
+       <motion.div
+   variants={{
+   hidden: {
+   opacity: 0,
+   y: -40,
+   },
+   visible: {
+   opacity: 1,
+   y: 0,
+   },
+   }}
+   initial="hidden"
+   whileInView="visible"
+   transition={{ duration: 1, delay: 0.1 }}
+   
+   className="animate_top "
+   >  <h2 className="text-center mb-4 text-2xl font-bold text-black dark:text-white xl:text-3xl 2xl:text-4xl  ">
+     <span className="text-content  nowraps">Our Clients</span>
+   </h2></motion.div>
+   
+   
+   </div>  
+      
 
 <div className="logos" >
         <div className="logos-slide" >

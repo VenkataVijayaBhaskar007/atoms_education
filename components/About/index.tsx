@@ -53,7 +53,7 @@ const About = () => {
     }}
     initial="hidden"
     whileInView="visible"
-    transition={{ duration: 1, delay: 0.1 }}
+    transition={{ duration: 1, delay: 0.3 }}
         className="animate_top rounded-lg bg-white px-4 lg:py-2  pb-9 "
       >    
       <div className="px-4 text-left  full-text " style={{ marginTop: "2rem" }}>
@@ -77,7 +77,7 @@ const About = () => {
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
-      src="./images/educationcards/13.png"
+      src="./images/educationcards/13.webp"
       alt="card image"
     />
     {/* Unique Shape Overlay */}
@@ -104,7 +104,7 @@ const About = () => {
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
-      src="./images/educationcards/19.png"
+      src="./images/educationcards/19.webp"
       alt="card image"
     />
     {/* Unique Shape Overlay */}
@@ -130,7 +130,7 @@ const About = () => {
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
-      src="./images/educationcards/14.png"
+      src="./images/educationcards/14.webp"
       alt="card image"
     />
     {/* Unique Shape Overlay */}
@@ -155,7 +155,7 @@ const About = () => {
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
-      src="./images/educationcards/22.png"
+      src="./images/educationcards/22.webp"
       alt="card image"
     />
     {/* Unique Shape Overlay */}
@@ -182,7 +182,7 @@ const About = () => {
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
-      src="./images/educationcards/11.png"
+      src="./images/educationcards/11.webp"
       alt="card image"
     />
     {/* Unique Shape Overlay */}

@@ -1,5 +1,5 @@
 /* YourComponent.css */
-
+html, body {width: auto!important; overflow-x: hidden!important} 
 .cardContainer {
     display: flex;
     flex-direction: column;

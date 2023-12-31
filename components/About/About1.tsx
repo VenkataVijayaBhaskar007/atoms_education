@@ -160,7 +160,7 @@ const About1 = () => {
   className="object-contain rounded-3xl w-full"
   height="600"
   width="778"
-  src="./images/about/about3.mp4"
+  src="./images/about/about3.webm"
   autoPlay
   muted
   loop

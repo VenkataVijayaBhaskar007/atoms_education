@@ -561,7 +561,7 @@ const Section1 = () => {
 
   return (
     <>
-<section className="my-4" style={{ marginTop: "8rem" }}>
+<section className="my-4 " style={{ marginTop: "8rem" }}>
   {/* First Card */}
   <motion.div
     variants={{
@@ -611,7 +611,7 @@ const Section1 = () => {
 
 
 
-<section>
+<section className="mb-30"> 
       <Tabs className=" px-5" >
         <TabsHeader className="bg-blue-100 relative z-20">
           {data.map(({ label, value }) => (

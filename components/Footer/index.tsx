@@ -20,7 +20,7 @@ export default function Footer() {
                 <img className=" max-w-full mx-auto md:max-w-none h-auto" src="./images/logo/Atoms-Education-Logo - White.png" width={100} height={60} alt="Features 02" />
                 </Link>
               </div>
-              <div className="text-gray-400  hover:text-gray-100 transition duration-150 ease-in-out z-999">"Join Atoms Education, a vital part of Atoms Group, shaping local learning environments. We inspire individuals to excel, offering courses and training for students, teachers, and institutions. Together, let's build a better community through the power of education."</div>
+              <div className="text-gray-400  hover:text-gray-100 transition duration-150 ease-in-out z-999">Join Atoms Education, a vital part of Atoms Group, shaping local learning environments. We inspire individuals to excel, offering courses and training for students, teachers, and institutions. Together, let's build a better community through the power of education.</div>
             </div>
             <div className="order-1 md:order-2 flex  justify-center sm:mt-0 mr-0 md:ml-25 z-999">
             <div className="container ">
@@ -175,7 +175,7 @@ export default function Footer() {
           <hr className="my-6 border-gray-200  dark:border-gray-700 lg:my-8" />
 
       <div className=" flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-            <p className="order-2 md:order-1 mt-8 md:mt-0 z-999 hover:text-cyan-400"> &copy;   Made with ❤️ by Atoms Digital Solutions </p>
+            <a href="https://atomsdigitalsolutions.atomsgroup.net/" className="order-2 md:order-1 mt-8 md:mt-0 z-999 hover:text-cyan-400"> &copy;   Made with ❤️ by Atoms Digital Solutions </a>
             <div className="order-1 md:order-2 flex mt-4 justify-center sm:mt-0 z-999 mr-0 md:mr-15">
             <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>

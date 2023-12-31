@@ -24,45 +24,128 @@ const About1 = () => {
     }}
     initial="hidden"
     whileInView="visible"
-    transition={{ duration: 1, delay: 1.5 }}
+    transition={{ duration: 1, delay: 0.1 }}
   
     className="animate_top "
   ><h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white xl:text-hero " style={{ whiteSpace: 'nowrap' }}>
   <span className="text-content">Atoms education</span>
 </h2></motion.div></div>
       <div>       
-              
+      <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        x: -40,
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.3 }}
+  
+    className="animate_top "
+  >          
     <p>
     At Atoms Education, our mission is to inspire the world to learn. We have established ourselves as creators of learning environments that empower individuals to enhance their learning capabilities and contribute to making the world a better place to live. Our expertise lies in providing courses and training to students, teachers, parents, and educational institution management, utilizing our innovative models to create effective learning spaces.
     </p>
+    </motion.div>
    
     <div className="mt-5">
+    <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        x: -40,
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.4 }}
+  
+    className="animate_top "
+  >
               <h2 className=" text-blue-600   text2xl font-bold dark:text-white xl:text-hero" style={{ whiteSpace:'nowrap'}}>
               Our Vision
                 
               </h2>
+              </motion.div>
               </div>
     <div className=" flex items-center gap-5">
             
                 <div className="w-3/4 mt-2">
-                
+                <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        x: -40,
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.4 }}
+  
+    className="animate_top "
+  >
                   <p>Inspiring the world to learn To be a global leader in transformative education, inspiring individuals to learn, innovate, and contribute to a brighter world.
- </p>
+ </p></motion.div>
                 </div>
               </div>
               <div className="mt-5">
-              <h2 className=" text-blue-600   text2xl font-bold dark:text-white xl:text-hero" style={{ whiteSpace:'nowrap'}}>
+              <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        x: -40,
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.5 }}
+  
+    className="animate_top "
+  > <h2 className=" text-blue-600   text2xl font-bold dark:text-white xl:text-hero" style={{ whiteSpace:'nowrap'}}>
               Our Mission
                 
-              </h2>
+              </h2></motion.div>
               </div>
     <div className=" flex items-center gap-5">
             
                 <div className=" mt-2">
                 
-                  <p>Atoms Education is dedicated to creating dynamic learning environments that empower students, teachers, and educational institutions. Through innovative models, we offer comprehensive services, fostering lifelong learning and contributing to a better world.
+                <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        x: -40,
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.6 }}
+  
+    className="animate_top "
+  >  <p>Atoms Education is dedicated to creating dynamic learning environments that empower students, teachers, and educational institutions. Through innovative models, we offer comprehensive services, fostering lifelong learning and contributing to a better world.
              
- </p>
+ </p></motion.div>
                 </div>
               </div>
              

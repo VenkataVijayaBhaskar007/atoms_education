@@ -203,7 +203,7 @@ const About = () => {
   </div>
 </div>
 {/*card-0 */}
-<div className="max-w-sm mx-8 my-4  margin2 ">
+<div className="max-w-sm mx-8 my-4  margin2 z-[-1]">
   <div className="relative w-full h-48 ">
     <img
       className="object-cover object-center w-full h-full"
@@ -212,7 +212,7 @@ const About = () => {
       style={{ visibility: 'hidden' }}
     />
     {/* Unique Shape Overlay */}
-    <div className="absolute inset-0 bg-gradient-to-r from-white to-white opacity-30"></div>
+    <div className="absolute inset-0 bg-gradient-to-r from-white to-white opacity-100"></div>
   </div>
   <div className="p-6 relative z-10">
     <small className="text-white text-xs">atoms education</small>
@@ -247,7 +247,7 @@ const About = () => {
 
 
  
-<section className="border border-x-0 border-y-stroke bg-alabaster py-1 dark:border-y-strokedark dark:bg-black" style={{marginTop:"-4rem"}}>
+<section className="border border-x-0 border-y-stroke bg-alabaster py-1 dark:border-y-strokedark dark:bg-black spaceu" >
        
    
        <div className="flex items-center justify-center">

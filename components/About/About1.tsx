@@ -159,8 +159,8 @@ const About1 = () => {
                   <video
   className="object-contain rounded-3xl w-full"
   height="600"
-  width="778"
-  src="./images/about/about3.webm"
+  width="800"
+  src="./images/about/about.mp4"
   autoPlay
   muted
   loop

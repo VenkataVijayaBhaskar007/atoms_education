@@ -43,7 +43,7 @@ const Hero = () => {
 
   return (
     <>
-   <section id="home" className=" pb-20  md:pt-10 xl:pb-25 xl:pt-1 relative space" >
+ <section id="home" className="   md:pt-10  xl:pt-1 relative space" >
   <div className=" pad   mx-auto w-full h-full">
     <div className=" md:block scale-95  relative">
       <Slider {...settings} className="">

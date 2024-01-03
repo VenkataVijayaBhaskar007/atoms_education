@@ -148,13 +148,7 @@ className="animate_top "
          <p> Atoms Education is dedicatged to creating dynamic learning environments that empower students, teachers, and educational institutions. Through innovative models, we offer comprehensive services, fostering lifelong learning and contributing to a better world.</p>
     </motion.div>   </div>
      </div>
-     <div className="mt-5 mb-6">
-     <a href="/aboutus"
-   className="mt-8 mb-10 bg-blue-600 text-white hover:text-blue-600 hover: border border-blue-600 hover:bg-white hover:-translate-y-1 shadow-md hover:shadow-lg transform hover:scale-x-105 px-6 py-2 rounded-full transition duration-300 ease-in-out"
- >
-  About US
- </a></div>
-     
+    
           </div>
      </div>
    </div>

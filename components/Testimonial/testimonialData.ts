@@ -5,27 +5,27 @@ import image2 from "@/public/images/user/user-02.png";
 export const testimonialData = [
   {
     id: 1,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "Yaswanth T",
+    designation: "Student @ VVIT",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Teaching of the mentor's was really good and taking care of each and individual student is the best part that I could mention.",
   },
   {
     id: 2,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "Adarsh",
+    designation: "Student @ KITS",
     image: image2,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "At the begining I don't know more english and lack of confidence in interviews, Acumen club program helped me to deal with my challenges and improved my english communication.",
   },
   {
     id: 3,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "David",
+    designation: "Student @ VVIT",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Had a little interaction talk with the mentors in a google meet and It was really a Productive meet to discuss about english Language and communication skills. Overall a worth learning here",
   },
   {
     id: 4,

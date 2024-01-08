@@ -22,15 +22,15 @@ export const testimonialData = [
   {
     id: 3,
     name: "David",
-    designation: "Student @ VVIT",
+    designation: "Student @ Hindu Degree College",
     image: image1,
     content:
       "Had a little interaction talk with the mentors in a google meet and It was really a Productive meet to discuss about english Language and communication skills. Overall a worth learning here",
   },
   {
     id: 4,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "Aadya",
+    designation: "Student @ VJ Degree College",
     image: image2,
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",

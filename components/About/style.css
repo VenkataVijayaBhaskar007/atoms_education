@@ -625,12 +625,12 @@ html, body {width: auto!important; overflow-x: hidden!important}
   }
   @media screen and (max-width: 800px) and (min-width: 400px) {
     .logos-slide img {
-      width: 22%;
+      width: 26%;
     }
   }
   @media screen and (max-width: 400px) and (min-width: 300px) {
     .logos-slide img {
-      width: 26%;
+      width: 32%;
     }
   }
   

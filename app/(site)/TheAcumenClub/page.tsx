@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import "./style.css"
 
-const Section2 = () => {
+const AcumenClub = () => {
 
 
   return (
@@ -39,7 +39,7 @@ const Section2 = () => {
     {/* Content on the Right */}
     <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text" >
     
-      <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-Section2 nowraps">
+      <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-AcumenClub nowraps">
         <span className="text-content">Acumen Club</span>
       </h2>
       <div className="px-3">
@@ -132,7 +132,7 @@ const Section2 = () => {
     {/* Content on the Right */}
     <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text" >
     
-      <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-Section2 nowraps">
+      <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-AcumenClub nowraps">
         <span className="text-content">Value Added Services</span>
       </h2>
      
@@ -275,7 +275,7 @@ const Section2 = () => {
     {/* Content on the Right */}
     <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text" >
     
-      <h2 className="text-with-circle background-circle mb-8 text2xl font-bold text-black dark:text-white 2xl:text-Section2 nowraps">
+      <h2 className="text-with-circle background-circle mb-8 text2xl font-bold text-black dark:text-white 2xl:text-AcumenClub nowraps">
         <span className="text-content">Registration Details</span>
       </h2>
       <h2 className="text-1xl"> Program Duration : 45 Days</h2>
@@ -308,4 +308,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default AcumenClub;

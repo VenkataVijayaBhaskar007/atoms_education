@@ -385,6 +385,28 @@ const Section1 = () => {
                     </svg>
                   </div>
                   <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
+                  Computer education and awareness sessions
+                  </div>
+                </div>
+             
+                <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="h-6 w-fit col-span-1"
+                      color="blue"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
                   Yoga, first aid training, and emergency practices
                   </div>
                 </div>
@@ -432,6 +454,7 @@ const Section1 = () => {
                 </div>
               </div>
               {/* ... (similar structure for other points) */}
+            
             </>
           ),
         },
@@ -595,12 +618,12 @@ const Section1 = () => {
         Welcome to
       </h4> */}
       <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-Section1 nowraps">
-        <span className="text-content">Personality Development Program</span>
+        <span className="text-content">Institute Management Services
+</span>
       </h2>
       <div className="px-3">
         <p>
-        Personality Development Program are designed aiming to create a learning space where students can identify their hidden skills and choose their passion as a career which offers them financial stability. We offer services and training to the students, teachers, parents and management of educational institutes with our models to create effective learning spaces. Our services include management of educational institutes, training students, teachers, management, and parents, and designing and implementing educational activities and services to enhance learning capabilities. We offer customisable services to manage educational institutes. Our major services include
-         </p>
+        Institute Management Services are designed aiming to create a learning space where students can identify their hidden skills and choose their passion as a career which offers them financial stability. We offer services and training to the students, teachers, parents and management of educational institutes with our models to create effective learning spaces. Our services include management of educational institutes, training students, teachers, management, and parents, and designing and implementing educational activities and services to enhance learning capabilities. </p>
       </div>
       
     </div>
@@ -608,7 +631,98 @@ const Section1 = () => {
 </section>
 
 
+<section className="my-2 lg:px-20" >
+  {/* First Card */}
+  <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        y: -40,
+      },
+      visible: {
+        opacity: 1,
+        y: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.5 }}
+  
+    className="animate_top flex flex-col lg:flex-row rounded-lg bg-white px-4 lg:py-2 pb-9 shadow-solid-8 dark:bg-blacksection"
+  >
+   
 
+    {/* Content on the Right */}
+    <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text" >
+    
+      <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-Section2 nowraps">
+        <span className="text-content">Our Services</span>
+      </h2>
+     
+    </div>
+  </motion.div>
+</section>
+<section className="py-4"><div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4 dark:bg-gray-800 dark:text-gray-100">
+
+   
+	<ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+		<li className="flex items-center space-x-2">
+    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="h-6 w-fit col-span-1"
+                      color="blue"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+			<span>Training programs
+
+</span>
+		</li>
+		<li className="flex items-center space-x-2">
+			 <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="h-6 w-fit col-span-1"
+                      color="blue"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+			<span>Management services
+ </span>
+		</li>
+		<li className="flex items-center space-x-2">
+			 <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="h-6 w-fit col-span-1"
+                      color="blue"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+			<span>Customisable educational services </span>
+		</li>
+
+	</ul>
+</div></section>
 
 
 <section className="mb-30"> 
@@ -650,7 +764,14 @@ const Section1 = () => {
 
  
 
-
+    <section>
+              <div className="px-8 mt-2 mb-8 font-regular text-xl">
+        <p>
+        Our services are customisable and we offer the services based on your needs. We specially design services satisfying your needs and help you reach all the stakeholders of your organization. 
+                </p>  </div>
+             
+              
+              </section>
 
 
 

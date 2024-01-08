@@ -73,7 +73,7 @@ const About = () => {
                           </div>
         <div className="flex flex-wrap justify-center items-center project-text" >
           {/*card-1 */}
-        <div className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out" >
+        <a href="/section1" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out" >
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
@@ -85,10 +85,9 @@ const About = () => {
   </div>
   <div className="p-6 relative z-10">
     <small className="text-blue-400 text-xs">atoms education</small>
-    <h2 className="mb-3  text-xl font-semibold text-gray-800 dark:text-white">Personality Development Program</h2>
+    <h2 className="mb-3  text-xl font-semibold text-gray-800 dark:text-white">Institute Management Services</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
-    We provide Personality Development Program, fostering learning spaces. Our offerings include institute management, student and teacher training...
-    </p>
+    Institute Management Services are designed aiming to create a learning space where students can identify their hidden skills and choose ... </p>
     <a
       href="/section1"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
@@ -96,7 +95,7 @@ const About = () => {
       <button className="bg-blue-500 text-white rounded-md px-2 py-1">Know More</button>
     </a>
   </div>
-</div>
+</a>
 
     
    {/* 2 Card */}
@@ -114,8 +113,7 @@ const About = () => {
     <small className="text-blue-400 text-xs">atoms education</small>
     <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">The Acumen Club</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
-    English is vital for global communication, aids travel and multinational jobs. Acumen Club fosters English skills through innovative curriculum, building...
-    </p>
+    The Acumen Club is designed to create an environment to help students and professionals to communicate in English... </p>
     <a
       href="/section2"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
@@ -140,8 +138,7 @@ const About = () => {
     <small className="text-blue-400 text-xs">atoms education</small>
     <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">Atoms Tutions</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
-    Atoms Tuition offers practical, non-traditional learning for students, partnering with educators to foster a positive community for academic growth...
-    </p>
+    Atoms Tuition serves as a platform where students can not only learn new concepts but also put them into practice effectively... </p>
     <a
       href="/section3"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
@@ -165,8 +162,7 @@ const About = () => {
     <small className="text-blue-400 text-xs">atoms education</small>
     <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">Atoms Summer Camps</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
-    Acumen Club's mission capitalizes on summer to boost student success via school partnerships. It enhances English, offers diverse sessions like...
-    </p>
+    Our mission is to recognize the crucial role of summer in a child's development and ensure its effective utilization to help...  </p>
     <a
       href="/section4"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
@@ -192,8 +188,7 @@ const About = () => {
     <small className="text-blue-400 text-xs">atoms education</small>
     <h2 className="mb-3 text-xl font-semibold text-gray-800 dark:text-white">Placement Assistance Packages</h2>
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
-    In the fierce job market, Atoms Education offers specialized training to conquer MNC job hurdles. Our modules enhance resumes, LinkedIn profiles...
-    </p>
+    In the current competitive job market, securing a position in a multinational corporation (MNC) can be a daunting task...</p>
     <a
       href="/section5"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"

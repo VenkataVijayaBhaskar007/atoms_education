@@ -39,14 +39,13 @@ const Section5 = () => {
     {/* Content on the Right */}
     <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text" >
     
-      <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-Section5 nowraps">
-        <span className="text-content">Atoms Tutions</span>
+      <h2 className="text-with-circle background-circle mb-1 text-lg lg:text-2xl font-bold text-black dark:text-white 2xl:text-Section5 nowraps">
+        <span className="text-content">Placement Assistance Packages</span>
       </h2>
 
       <div className="px-3">
         <p>
-        Atoms Tuition serves as a platform where students can not only learn new concepts but also put them into practice effectively. Our primary aim is to help school-going students implement and gain practical experience from their learnings. In addition to covering school topics, our tuition sessions also encompass subjects and skills not typically taught in schools. We place a strong emphasis on practical learning and offer sessions that focus on building life skills, leading to transformative changes in a student's life.
-
+        &emsp;&emsp; In the current competitive job market, securing a position in a multinational corporation (MNC) can be a daunting task, even for individuals with the necessary technical skills and qualifications. At Atoms Education, we understand the challenges candidates face during the screening process, and that's why we offer a range of specialized courses and training programs.
 </p>
   </div>
       
@@ -75,28 +74,32 @@ const Section5 = () => {
     whileInView="visible"
     transition={{ duration: 1, delay: 0.5 }}
   
-    className="animate_top flex flex-col lg:flex-row rounded-lg bg-white px-4 lg:py-2 pb-9 shadow-solid-8 dark:bg-blacksection"
+    className="animate_top flex flex-col lg:flex-row rounded-lg px-4 lg:py-2 pb-9 shadow-solid-8 dark:bg-blacksection"
   >
    
 
     <div className=" lg:w-1/1 px-4 text-left full-text" >
     
-      <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-Section2 nowraps">
+    <h2 className="text-with-circle background-circle mb-1 text-lg lg:text-2xl font-bold text-black dark:text-white 2xl:text-Section5 nowraps">
         <span className="text-content">Program Overview {/*&  Educational Approach*/}</span>
       </h2>
-     <div className="px-3">
-        <p>
-        We warmly welcome collaborations with schools, college students, and home makers who share our passion for educating the community and are eager to make a positive impact. Through these strategic collaborations we create a dynamic community of educators who are passionate about making a difference. As a business, Atoms Tuition offers a lucrative opportunity for partners to engage in the education sector and contribute to the growth and development of students while earning from their involvement. Together, we create a mutually beneficial ecosystem that enhances learning outcomes and sets students up for success in a competitive world.
+    
+    </div>
+ 
+      
+  </motion.div>
+  
+</section>
 
+<div className=" px-10 lg:px-20 mb-10 -mt-10 lg:mt-0">
+<p>
+&emsp;&emsp; Our comprehensive training modules cater to students, colleges, and universities, equipping them with the tools to excel in the screening process. These training sessions cover essential aspects such as resume building, providing personalized resume-building services, optimizing LinkedIn profiles for professional visibility, and mastering effective networking strategies. Additionally, we conduct mock group discussions and mock interviews to simulate real-world scenarios and enhance candidates' confidence and performance.
+
+</p><br/> <p>
+        &emsp;&emsp; We offer tailor-made packages designed to meet the specific needs of colleges, universities, and individuals, ensuring that everyone receives the guidance and support required to stand out in the job market. At Atoms Education, our goal is to empower candidates with the skills and expertise needed to navigate the competitive landscape and secure their desired positions in top-tier MNCs.
 
         </p>
      </div>
-      
-    </div>
-  </motion.div>
-</section>
-
-
 
 
 

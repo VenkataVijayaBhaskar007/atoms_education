@@ -419,8 +419,8 @@ html, body {width: auto!important; overflow-x: hidden!important}
     transform: scale(1.1);
   }
   .background-circle {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     background: linear-gradient( 125deg, #879dff, #ffffff);
 
     border-radius: 50%;
@@ -428,7 +428,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
     margin-top: -2px; /* Adjust the distance from the top */
     margin-right: 10px; /* Adjust the distance from the right */
     display: inline-block; /* Ensures that the circle doesn't disrupt the flow of the text */
-    padding-left: -8px;  
+    padding-left: 8px;  
 }
 
   .text-content {
@@ -436,6 +436,8 @@ html, body {width: auto!important; overflow-x: hidden!important}
     margin-left: 10px; /* Adjust the distance to move the text to the right */
     margin-top: 4px;
 }
+ 
+
 .text2xl {
     font-size: 1.6rem/* 24px */;
     line-height: 2rem/* 32px */;

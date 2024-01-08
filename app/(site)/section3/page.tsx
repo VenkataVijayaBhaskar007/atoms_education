@@ -58,7 +58,9 @@ const Section3 = () => {
 
 
 
-<section className="my-4 lg:px-20" >
+<section>
+  <div>
+  <section className="my-4 lg:px-25" >
   {/* First Card */}
   <motion.div
     variants={{
@@ -75,142 +77,34 @@ const Section3 = () => {
     whileInView="visible"
     transition={{ duration: 1, delay: 0.5 }}
   
-    className="animate_top flex flex-col lg:flex-row rounded-lg bg-white px-4 lg:py-2 pb-9 shadow-solid-8 dark:bg-blacksection"
+    className="animate_top px-8 xl:px-8 lg:px-6"
   >
    
 
-    <div className=" lg:w-1/1 px-4 text-left full-text" >
+    <div className="   text-left full-text" >
     
       <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-Section2 nowraps">
-        <span className="text-content">Program Overview {/*&  Educational Approach*/}</span>
+        <span className="text-content">Program Overview </span>
       </h2>
-      <div className="flex space-x-8 ml-2">
-  {/* Left Section */}
-  <div className="space-y-4 mt-4">
-    
-    <div className="flex items-center space-x-4">
-      {/* Tick mark icon on the left */}
-      <div className="flex-shrink-0">
-        {/* SVG insertion for the tick mark */}
-       	 <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                      className="h-6 w-fit col-span-1"
-                      color="blue"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-      </div>
 
-      {/* Content on the right */}
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
-      Improved academic performance of the student
-
-
-      </div>
-    </div>
-
-    {/* Repeat the above structure with different texts */}
-    <div className="flex items-center space-x-4">
-      <div className="flex-shrink-0">
-       	 <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                      className="h-6 w-fit col-span-1"
-                      color="blue"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-      </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
-      Hand writing, Drawing, and Craft design
-      </div>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="flex-shrink-0">
-       	 <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                      className="h-6 w-fit col-span-1"
-                      color="blue"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-      </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
-      Communication Skills
-      </div>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="flex-shrink-0">
-       	 <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                      className="h-6 w-fit col-span-1"
-                      color="blue"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-      </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
-      Life Skills
-      </div>
-    </div>
-    <div className="flex items-center space-x-4">
-      <div className="flex-shrink-0">
-       	 <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                      className="h-6 w-fit col-span-1"
-                      color="blue"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-      </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
-      Awareness on ignored skills, information and general knowledge
-      </div>
-    </div>
-  </div>
-
-
-</div>
+     
       
     </div>
+   
   </motion.div>
-  <div className=" lg:w-1/1 px-4 text-left full-text" >
+</section>
+
+<div className="xl:px-28 px-10 lg:px-25 mb-2">
+
+
+        <p className="mb-2">
+          
+
+        We warmly welcome collaborations with schools, college students, and home makers who share our passion for educating the community and are eager to make a positive impact. Through these strategic collaborations we create a dynamic community of educators who are passionate about making a difference. As a business, Atoms Tuition offers a lucrative opportunity for partners to engage in the education sector and contribute to the growth and development of students while earning from their involvement. Together, we create a mutually beneficial ecosystem that enhances learning outcomes and sets students up for success in a competitive world.
+
+        </p>
+        </div>
+  {/* <div className=" lg:w-1/1 px-4 text-left full-text" >
     
       <h2 className=" mb-6 text2xl font-bold text-black dark:text-white 2xl:text-Section3 nowraps">
         <span className="text-content">Contact</span>
@@ -232,7 +126,62 @@ const Section3 = () => {
       </div>
       <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed mt-2 md:whitespace-nowrap">
        91+ 9652185060 </div>
+    </div> */}
+    <section className="my-4 lg:px-25" >
+  {/* First Card */}
+  <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        y: -40,
+      },
+      visible: {
+        opacity: 1,
+        y: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 0.1 }}
+  
+    className="animate_top px-8 xl:px-8 lg:px-6"
+  >
+   
+
+    <div className="   text-left full-text" >
+    
+      <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-Section2 nowraps">
+       <span className="text-content">Value Added Services </span>
+      </h2>
+     
+
     </div>
+
+    </motion.div>
+
+    <div className="px-10 lg:px-0 ">
+    <h2 className=" mb-1 text-md font-regular text-black dark:text-white 2xl:text-Section2 ">
+        <span className="text-content"> • Improved Academic Performance of the Student </span>
+      </h2>
+      <h2 className=" mb-1 text-md font-regular text-black dark:text-white 2xl:text-Section2 ">
+        <span className="text-content"> • Hand writing, Drawing, and Craft design
+Communication Skills
+
+ </span>
+      </h2>
+      <h2 className=" mb-1 text-md font-regular text-black dark:text-white 2xl:text-Section2 ">
+        <span className="text-content"> • Life Skills
+
+ </span>
+      </h2>
+      <h2 className=" mb-1 text-md font-regular text-black dark:text-white 2xl:text-Section2 ">
+        <span className="text-content"> • Awareness on ignored skills, information and general knowledge
+
+ </span>
+      </h2>
+</div>
+  
+</section>
     
 </div>
 </section>

@@ -115,7 +115,7 @@ const About = () => {
     <p className="text-sm tracking-tight font-light text-slate-400 leading-6">
     The Acumen Club is designed to create an environment to help students and professionals to communicate in English... </p>
     <a
-      href="/section2"
+      href="TheAcumenClub"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
     >
       <button className="bg-blue-500 text-white rounded-md px-2 py-1">Know More</button>

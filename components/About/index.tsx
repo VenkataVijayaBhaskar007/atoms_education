@@ -287,6 +287,10 @@ const About = () => {
 
 
 
+
+    <img src="./images/clients/11.png" alt="client-3 logo image" />
+
+
    
 
 

@@ -290,8 +290,85 @@ const About = () => {
 
     <img src="./images/clients/11.png" alt="client-3 logo image" />
 
+    <img src="./images/clients/4.png" alt="client-1 logo image" />
 
-   
+
+
+  
+
+
+
+<img src="./images/clients/5.png" alt="client-3 logo image" />
+
+
+
+
+<img src="./images/clients/6.png" alt="client-3 logo image" />
+
+
+<img src="./images/clients/1.png" alt="client-1 logo image" />
+
+
+
+  
+
+
+
+<img src="./images/clients/3.png" alt="client-3 logo image" />
+
+
+
+
+<img src="./images/clients/11.png" alt="client-3 logo image" />
+
+<img src="./images/clients/4.png" alt="client-1 logo image" />
+
+
+
+
+
+
+
+<img src="./images/clients/5.png" alt="client-3 logo image" />
+
+
+
+
+<img src="./images/clients/6.png" alt="client-3 logo image" />
+
+
+<img src="./images/clients/1.png" alt="client-1 logo image" />
+
+
+
+  
+
+
+
+<img src="./images/clients/3.png" alt="client-3 logo image" />
+
+
+
+
+<img src="./images/clients/11.png" alt="client-3 logo image" />
+
+<img src="./images/clients/4.png" alt="client-1 logo image" />
+
+
+
+
+
+
+
+<img src="./images/clients/5.png" alt="client-3 logo image" />
+
+
+
+
+<img src="./images/clients/6.png" alt="client-3 logo image" />
+
+
+
 
 
         

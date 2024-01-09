@@ -196,7 +196,7 @@ const Team = () => {
 </ul>
      </div>
      <div className="caption">
-       <h3>irumala Sai Ganesh Babu Battula</h3>
+       <h3>Tirumala Sai Ganesh Babu Battula</h3>
        <p>Director & Lead of Acumen Club</p> 
        {/* Social links for Card 1 */}
       <ul className="flex mb-4 md:order-1  md:mb-0">

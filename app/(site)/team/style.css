@@ -5,19 +5,20 @@ html, body {width: auto!important; overflow-x: hidden!important}
     position: relative;
     font-family: 'Poppins', sans-serif;
     width: 220px;
-    height: 200px;
+    height: 220px;
   
   
    
     transition: 0.6s;
     margin: 0 55px;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
+    margin-top: 3.5rem;
   
   }
   
   .profile-card:hover {
     border-radius: 10px;
-    height: 280px;
+    height: 300px;
     padding: 30px;
     box-shadow: 0 0 22px #3336;
     /* background: linear-gradient(20deg, #2e71c3, #79efff); */
@@ -60,20 +61,18 @@ html, body {width: auto!important; overflow-x: hidden!important}
     transition: 0.6s;
   }
   
-  .profile-card:nth-child(5):hover .caption {
+  .profile-card:nth-child(3):hover .caption {
+    transform: translateY(-180px);
+  }
+  .profile-card:nth-child(2):hover .caption {
     transform: translateY(-170px);
   }
-  .profile-card:nth-child(6):hover .caption {
-    transform: translateY(-160px);
-  }
-  .profile-card:nth-child(7):hover .caption {
-    transform: translateY(-160px);
+  .profile-card:nth-child(1):hover .caption {
+    transform: translateY(-170px);
   }
   
   
-  .profile-card:nth-child(8):hover .caption {
-    transform: translateY(-170px);
-  }
+  
   
   
   .profile-card:hover .caption {

@@ -73,7 +73,7 @@ const About = () => {
                           </div>
         <div className="flex flex-wrap justify-center items-center project-text" >
           {/*card-1 */}
-        <a href="/section1" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out" >
+        <div  className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl " >
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
@@ -92,14 +92,14 @@ const About = () => {
       href="/section1"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
     >
-      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out">Know More</button>
+      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out ">Know More</button>
     </a>
   </div>
-</a>
+</div>
 
     
    {/* 2 Card */}
-   <a href="/TheAcumenClub" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out margin1">
+   <a href="/TheAcumenClub" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl  margin1">
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
@@ -118,13 +118,13 @@ const About = () => {
       href="TheAcumenClub"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
     >
-      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out">Know More</button>
+      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out ">Know More</button>
     </a>
   </div>
 </a>
 
      {/* 3 Card */}
-     <a href="/section3" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out margin2">
+     <a href="/section3" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl  margin2">
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
@@ -143,12 +143,12 @@ const About = () => {
       href="/section3"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
     >
-      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out">Know More</button>
+      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out ">Know More</button>
     </a>
   </div>
 </a>
 {/*card-4 */}
-<a href="/section4" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out" >
+<a href="/section4" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl " >
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
@@ -167,14 +167,14 @@ const About = () => {
       href="/section4"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
     >
-      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out">Know More</button>
+      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out ">Know More</button>
     </a>
   </div>
 </a>
 
     
    {/* 5 Card */}
-   <a href="/section5" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 ease-in-out margin1 " >
+   <a href="/section5" className="max-w-sm mx-8 my-4 overflow-hidden bg-white dark:bg-btndark rounded-radius shadow-lg hover:shadow-xl  margin1 " >
   <div className="relative w-full h-48 overflow-hidden">
     <img
       className="object-cover object-center w-full h-full"
@@ -193,7 +193,7 @@ const About = () => {
       href="/section5"
       className="inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary mt-5"
     >
-      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out">Know More</button>
+      <button className="bg-blue-500 text-white rounded-md px-2 py-1 transform hover:scale-105 transition-all duration-300 ease-in-out ">Know More</button>
     </a>
   </div>
 </a>

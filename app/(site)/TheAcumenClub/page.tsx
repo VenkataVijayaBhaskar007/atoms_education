@@ -65,7 +65,7 @@ const AcumenClub = () => {
     <table className="styled-table">
     <thead>
         <tr>
-            <th className="p-2 text-center">Sr no</th>
+            <th className="p-2 text-center">S.No</th>
             <th className="p-2 text-center">Day</th>
             <th className="p-2 text-center">Agenda</th>
         </tr>
@@ -84,22 +84,22 @@ const AcumenClub = () => {
         <tr>
             <td>3</td>
             <td>Wednesday</td>
-            <td>News Day</td>
+            <td>Article Day</td>
         </tr>
         <tr className="active-row">
             <td>4</td>
             <td>Thursday</td>
-            <td>Listening Day</td>
+            <td>Grammar Day</td>
         </tr>
         <tr>
             <td>5</td>
-            <td>Fridatday</td>
-            <td>Grammar Day</td>
+            <td>Friday</td>
+            <td>TED Talk Day</td>
         </tr>
         <tr className="active-row">
             <td>7</td>
             <td>Saturday</td>
-            <td>Story Day</td>
+            <td>Stories / Activities Day</td>
         </tr>
         
     </tbody>
@@ -273,13 +273,13 @@ const AcumenClub = () => {
    
 
     {/* Content on the Right */}
-    <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text" >
+    <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text " >
     
       <h2 className="text-with-circle background-circle mb-8 text2xl font-bold text-black dark:text-white 2xl:text-AcumenClub nowraps">
         <span className="text-content">Registration Details</span>
       </h2>
-      <h2 className="text-1xl"> Program Duration : 45 Days</h2>
-      <h2 className="text-1xl">  Price - ₹2,999/- (registration fee included)</h2>
+      <h2 className="text-1xl font-bold text-blue-800"> Program Duration : 45 Days</h2>
+      <h2 className="text-1xl font-bold text-blue-800">  Price - ₹1,499/- (registration fee included)</h2>
      
      
       
